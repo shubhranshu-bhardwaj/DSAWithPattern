@@ -1,0 +1,8 @@
+📍 Pattern: Sliding Window
+
+👉 Used when you need to find subarrays/substrings under a condition.
+👉 Two types:
+
+Fixed window size (k elements, substring of length k)
+
+Variable window size (longest substring with K distinct chars, etc.)

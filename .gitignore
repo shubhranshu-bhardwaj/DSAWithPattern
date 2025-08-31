@@ -1,0 +1,31 @@
+# Ignore build artifacts
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.dll
+
+# Ignore user-specific and backup files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio Code folder
+.vscode/
+
+# Ignore output folder
+output/
+
+# CMake and Makefile outputs (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Ignore compiled files from debugging
+*.dSYM/
