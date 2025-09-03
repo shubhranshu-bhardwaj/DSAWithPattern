@@ -62,6 +62,7 @@ vector<int> better(vector<int> &arr, int k)
     }
     return ans;
 }
+// TC -> 0(n)
 
 // Optimal ->
 vector<int> optimal(vector<int> &arr, int k)
@@ -87,4 +88,37 @@ vector<int> optimal(vector<int> &arr, int k)
     }
 
     return ans;
+}
+// TC -> 0(n)
+
+// Function to print result
+void printVector(const vector<int> &v)
+{
+    for (int x : v)
+        cout << x << " ";
+    cout << endl;
+}
+
+// Main Function
+int main()
+{
+    vector<int> arr = {12, -1, -7, 8, -15, 30, 16, 28};
+    int k = 3;
+
+    // Brute
+    vector<int> res1 = findNeg(arr, k);
+    cout << "Brute Force Output:   ";
+    printVector(res1);
+
+    // Better
+    vector<int> res2 = better(arr, k);
+    cout << "Better Approach Output: ";
+    printVector(res2);
+
+    // Optimal
+    vector<int> res3 = optimal(arr, k);
+    cout << "Optimal Approach Output: ";
+    printVector(res3);
+
+    return 0;
 }
