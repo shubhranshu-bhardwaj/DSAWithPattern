@@ -1,0 +1,11 @@
+Key Indicators for Using Two Pointers:
+
+Sorted Arrays/Lists: The array or list is sorted, and you need to search or compare elements.
+
+Subarray Problems: You need to find or check properties of a subarray (e.g., sum, product, length).
+
+Pairs/Triplets: You're looking for pairs or triplets that satisfy a certain condition.
+
+Partitioning: You need to partition an array into different categories based on certain conditions.
+
+Comparison Across Both Ends: You're comparing elements from both ends of the data structure (like palindrome checking).
